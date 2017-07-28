@@ -1,0 +1,88 @@
+.hero{
+    background: url('/img/hero.jpeg');
+    height: 240px;
+    background-size: cover;
+    background-position: 0px -38px;
+    background-repeat: no-repeat;
+}
+.UserProfile{
+    width: 80%;
+    margin: auto;
+    background: white;
+    color: #5c5146;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 0 8px -1px;
+}
+.profile-photo{
+    background: url('/img/aac.jpg');
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    margin:2em 3%;
+    border: solid 1px #d4cfca;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    padding: .5em;
+    float: left;
+}
+.profile-name{
+    width: 70%;
+    float: right;
+}
+.lower-icons{
+    width: 100%;
+    display: flex;
+    margin-top: auto;
+    align-self: end;
+}
+.icon{
+    width: 33%;
+    text-align: center;
+    background: #f6f1ed;
+    border: solid 1px white;
+    padding: 1em;
+}
+.lower-icons img{
+    width: 30px;
+    object-fit: none;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 1em;
+}
+#heart-icon{
+    object-position: -414px -3px;
+}
+#comment-icon{
+    object-position: -270px -3px;
+}
+#eye-icon{
+    object-position: -99px -3px;
+}
+.profile-info{
+    /* display: flex;
+      flex-direction: column; */
+      position: relative
+    
+}
+
+.profile-info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 750px) {
+    
+    .profile-photo{
+      width: 40px;
+      height: 40px;
+    }
+
+    .hero{
+        background-position: 0;
+    }
+}

@@ -1,0 +1,179 @@
+html {
+  height: 100%;
+  color: #5c5146;
+}
+body {
+  height: 100%;
+  margin: 1em;
+  padding: 0;
+  font-family: sans-serif;
+  background: #d4b792;
+  background: linear-gradient(to bottom right,#c77f6d,#ece4c0); /* Standard syntax */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+.widgets-menu{
+  margin: 2em auto;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 8px -1px;
+}
+.widgets-menu_item{
+  width: 25%;
+  padding: 1em;
+  position: relative;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.widgets-menu span{
+  display: inline;
+  color: #8e8071;
+  font-size: 1.4vw;
+}
+.menu-icon{
+  object-fit: none;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+.location-icon{
+  object-position: -21px -2px;
+}
+.heart-icon{
+  object-position: -183px -2px;
+}
+.account-icon{
+  object-position: -340px -2px;
+}
+.settings-icon{
+  object-position: -500px -2px;
+}
+.widgets-menu_item.selected{
+  background: #f8f3f0;
+  border-bottom: solid #4daf7b;
+}
+.notifications-number{
+  border-radius: 50%;
+  background: #e55e3a;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  color: white;
+  top: 10px;
+  right: 15%;
+  font-size: .7em;
+  padding: 2px;
+  line-height: 1em;
+  text-align: center;
+}
+.menu-icon{
+  object-fit: none;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+.flags{
+  text-align: right;
+}
+ .spanish-flag{
+  object-position: -85px -40px;
+  cursor: pointer;
+}
+ .english-flag{
+  object-position: -6px -2px;
+  cursor: pointer;
+}     
+.ContactForm{
+  box-shadow: 0 0 8px -1px;
+  width: 80%;
+  margin: 2em auto;
+  border-radius: 7px;
+  background: white;
+  overflow: hidden;
+}
+.contact-form {
+  padding: 2em;
+  padding-bottom: 0;
+}
+ .contact-form input, .contact-form textarea{
+  width: 100%;
+  display: block;
+  clear: both;
+  font-size: .9em;
+  padding: 1em;
+  border: solid #e5d4c2 1px;
+  border-radius: 4px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+.inputContainer{
+  display: block;
+  width: 80%;
+  margin: 1em auto;
+}
+.react-selectize.root-node{
+  width: 100% !important;
+}
+.send-btn {
+  float: right;
+  background: #ea704b;
+  background-image: -webkit-linear-gradient(top, #ea704b, #e55e3a);
+  background-image: -moz-linear-gradient(top, #ea704b, #e55e3a);
+  background-image: -ms-linear-gradient(top, #ea704b, #e55e3a);
+  background-image: -o-linear-gradient(top, #ea704b, #e55e3a);
+  background-image: linear-gradient(to bottom, #ea704b, #e55e3a);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  border: solid #c44a28 1px;
+  text-decoration: none;
+}
+
+.send-btn:hover {
+  background: #e55e3a;
+  background-image: -webkit-linear-gradient(top, #e55e3a, #ea704b);
+  background-image: -moz-linear-gradient(top, #e55e3a, #ea704b);
+  background-image: -ms-linear-gradient(top, #e55e3a, #ea704b);
+  background-image: -o-linear-gradient(top, #e55e3a, #ea704b);
+  background-image: linear-gradient(to bottom, #e55e3a, #ea704b);
+  text-decoration: none;
+}
+.buttons-area:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.buttons-area{
+  background: #f8f3f0;
+  padding: 1em 3em;
+  width: 100%;
+  box-sizing: border-box;
+}
+.ContactForm input[type="checkbox"]{
+  width: 2em;
+  float: left;
+}
+@media only screen and (max-width: 750px) {
+    .widgets-menu span{
+        display: none;
+    }
+    .send-btn{
+      margin-top:1em;
+    }
+    
+}

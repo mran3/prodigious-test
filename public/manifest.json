@@ -1,0 +1,16 @@
+{
+  "short_name": "Prodigious Test",
+  "name": "Prodigious Test",
+  "author": "Andres Acevedo",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
