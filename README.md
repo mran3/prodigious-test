@@ -1,5 +1,5 @@
-# prodigious-test
-web app made with react
+# Example web app made with react
+
 
 For running it run:
 1) npm install
